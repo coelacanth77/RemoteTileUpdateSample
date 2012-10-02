@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="RemoteTileUpdateSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RemoteTileUpdateSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF1259FB">
+        <TextBlock HorizontalAlignment="Left" Margin="74,42,0,0" TextWrapping="Wrap" Text="定期的なタイル更新サンプル" VerticalAlignment="Top" FontSize="48" Width="574"/>
+        <TextBlock HorizontalAlignment="Left" Margin="74,136,0,0" TextWrapping="Wrap" Text="Webサービスと通信してタイルを更新します" VerticalAlignment="Top" FontSize="48" Width="958" RenderTransformOrigin="0.503,2.853"/>
+        <TextBlock HorizontalAlignment="Left" Margin="74,233,0,0" TextWrapping="Wrap" Text="画像はローカルとサーバーの画像を指定できます" VerticalAlignment="Top" FontSize="48" Width="958" RenderTransformOrigin="0.503,2.853"/>
+
+    </Grid>
+</Page>
